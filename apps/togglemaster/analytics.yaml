@@ -16,7 +16,7 @@ spec:
       serviceAccountName: analytics-service
       containers:
         - name: analytics-service
-          image: 921017758649.dkr.ecr.us-east-1.amazonaws.com/togglemaster-analytics:podidentity-fix
+          image: 921017758649.dkr.ecr.us-east-1.amazonaws.com/togglemaster-analytics:e2c8afa40fec05e36a68c1c575e1c9d1259e57ec
           imagePullPolicy: Always
           ports:
             - containerPort: 8005
